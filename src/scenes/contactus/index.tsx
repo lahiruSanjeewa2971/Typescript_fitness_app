@@ -63,7 +63,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               action="https://formsubmit.co/el/kixide"
             >
               <input
-                className="mt-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white"
+                className="mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white"
                 type="text"
                 placeholder="NAME"
                 {...register("name", { required: true, maxLength: 100 })}
@@ -77,7 +77,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               )}
 
               <input
-                className="mt-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white"
+                className="mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white"
                 type="email"
                 placeholder="EMAIL"
                 {...register("email", {
@@ -94,7 +94,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               )}
 
               <textarea
-                className="mt-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white"
+                className="mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white"
                 rows={4}
                 cols={50}
                 placeholder="MESSAGE"
@@ -111,7 +111,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 
               <button
                 type="submit"
-                className="mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white"
+                className="mb-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white"
               >
                 SUBMIT
               </button>
